@@ -4,7 +4,7 @@ System.Console.WriteLine();
 System.Console.Write("Введите целое число:   ");
 string number = Console.ReadLine();
 int length = number.Length;
-string txtToCheck = number.Replace(" ","");  /// для проверки текста на палиндром
+
 
 bool IsPalindrome()
 {
