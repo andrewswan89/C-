@@ -3,7 +3,7 @@ string writeNum = Console.ReadLine();
 int number = Convert.ToInt32(writeNum);
 int result = number;
 
-// первый способ
+
 
 int count1 = 0;
 while (result > 0)
