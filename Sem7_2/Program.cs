@@ -12,7 +12,7 @@
 }
 
 
-void PrintArray(int[,] arr)
+void PrintArray(int[,] arr)         /// вывод массива
 {
     for (int i = 0; i < arr.GetLength(0); i++)
     {
@@ -24,7 +24,7 @@ void PrintArray(int[,] arr)
     }
 }
 
-int[,] FillArray(int[,] arr, int from, int to)
+int[,] FillArray(int[,] arr, int from, int to)        /// заполненение массива
 {
     for (int i = 0; i < arr.GetLength(0); i++)
     {
